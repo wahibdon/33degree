@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>33 Degree</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="icon" href="/favicon.png">
+</head>
+<body>
+<header>
+	<div class="center graybg">
+		<div id="mobile">
+			<img id="menu-icon" src="images/menu.gif" alt="click here to open the menu" />
+		</div>
+		<ul id="desktop">
+			<li><a href="/about.php">About</a></li>
+			<li><a href="/case-studies.php">Case Studies</a></li>
+			<li><a href="/jobs.php">Jobs</a></li>
+			<li><a href="/contact.php">Contact</a></li>
+			<li><a href="/login.php">Login</a></li>
+		</ul>
+		<h1 id="home-logo">
+			<a href="/">
+				<img src="images/home-logo.gif" alt="33 degree logo" />
+			</a>
+		</h1>
+
+	</div>
+</header>
+<nav id="menu_takeover">
+	<div class="center">
+		<ul>
+			<li><a class="menu" href="/">Home</a></li>
+			<li><a class="menu" href="/about.php">About</a></li>
+			<li><a class="menu" href="/case-studies.php">Case Studies</a></li>
+			<li><a class="menu" href="/jobs.php">Jobs</a></li>
+			<li><a class="menu" href="/contact.php">Contact</a></li>
+		</ul>
+		<div>
+			<h2>Log In:</h2>
+			<input type="text" name="username" placeholder="Username" />
+			<input type="password" name="password" placeholder="Password" />
+			<button id="login-button">Login</button> <a href="">Forgot password?</a>
+			<p id="login-error">Login infromation incorrect.  Please email <a href="mailto:info@33degreecc.com">info@33degreecc.com</a> for assistance</p>
+		</div>
+	</div>
+</nav>
+<div class="dark-graybg">
+	<video id="home-vid" loop>
+		<!--<source src="video/home-vid.mp4" type="video/mp4" />-->
+	</video>
+</div>
+<p class="center">33 Degrees is a full service provider of digital out of home networks that reach customers in high traffic areas around the world. With one of our national clients alone, we hit over 108 million impressions a month. Our mission is to not only increase sales and customer experience but to also strengthen brand loyalty.</p>
+<div class="center">
+</div>
+
+<script type="text/javascript">
+	document.body.onload = function(){
+		setTimeout(function(){
+			document.getElementById('intro').style.visibility = "hidden";
+			document.getElementById('intro').style.opacity = "0";
+			document.getElementById('home-vid').play();
+		}, 2500);
+	}
+</script>
+
+<footer>
+	<div class="center">
+		<div class="footer-lists">
+			<h3>Navigation</h3>
+			<ul id="secondary-nav">
+				<li><a href="/">Home</a></li>
+				<li><a href="/about.php">About</a></li>
+				<li><a href="/case-studies.php">Case Studies</a></li>
+				<li><a href="/jobs.php">Jobs</a></li>
+				<li><a href="/contact.php">Contact</a></li>
+				<li><a href="/login.php">Login</a></li>
+			</ul>
+		</div>
+		<div class="footer-lists">
+			<h3>Partners</h3>
+			<ul id="foot-partners">
+				<li><a href="http://www.conexusworld.com">ConeXus World</a></li>
+				<li><a href="http://ottcom.com">Ott Communications</a></li>
+				<li><a href="http://mpgmediaservices.com">MillerPrint Group</a></li>
+				<li><a href="http://www.necdisplay.com">NEC Displays</a></li>
+				<li><a href="https://www.peerless-av.com/en-us/professional/">Peerless</a></li>
+				<li><a href="http://www.samsung.com/us/business/displays/digital-signage/?cid=ppc-eb-prb-0414-43700002006900947">Samsung Displays</a></li>
+				<li><a href="https://cradlepoint.com/white-paper/4g-lte?ls=Adwords&amp;gclid=Cj0KEQjwrdetBRCJg92s44SB77IBEiQAEIWmVSehuYcQKkYhu1DTLrI8nvD6_NLtBbSFP0jVN4rIPjYaAota8P8HAQ">Cradlepoint</a></li>
+				<li><a href="http://www.att.com">AT&amp;T</a></li>
+				<li><a href="https://www.sprint.com/#!/">Sprint</a></li>
+				<li><a href="http://www.t-mobile.com">T-Mobile</a></li>
+			</ul>
+		</div>
+		<p id="tel">
+			<a href="tel:+8883688266">(888) 386-8266</a>
+		</p>
+	</div>
+	<div class="center">
+		<p>
+			80 Orville Drive Suite 245 <br />
+			Bohemia, New York 11716
+		</p>
+		<p>
+			13100 Magisterial Drive, Suite 101<br />
+			Louisville, KY 40223
+		</p>
+		<p>
+			&copy; Copyright 33 Degrees, 2015. All Rights Reserved.
+		</p>
+	</div>
+</footer>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
